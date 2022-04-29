@@ -14,12 +14,23 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 .header {
-background-color: rgb(24, 145, 216);
-text-align: center;
-padding: 20px;
-box-shadow: 0 1px 10px rgb(155, 155, 155);
-
+    background-color: rgb(24, 145, 216);
+    background-image: url("pescaria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 1px 10px rgb(155, 155, 155);
+    height: 200px;
+    
+    
 }
+
+h1 {
+    margin-top: 60px;
+}
+
 
 .container{
     display: flex;
